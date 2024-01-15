@@ -1,0 +1,42 @@
+{
+  "name": "Track",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "proxy": "https://rogue2test.kinde.com",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fluentui/react": "^8.114.0",
+    "@fluentui/react-components": "^9.44.0",
+    "@fluentui/react-icons": "^2.0.224",
+    "@kinde-oss/kinde-auth-react": "^3.0.23",
+    "@supabase/supabase-js": "^2.39.2",
+    "dotenv": "^16.3.1",
+    "leaflet": "^1.9.4",
+    "lodash": "^4.17.21",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-geolocated": "^4.1.2",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.21.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.47",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.0.11"
+  }
+}
